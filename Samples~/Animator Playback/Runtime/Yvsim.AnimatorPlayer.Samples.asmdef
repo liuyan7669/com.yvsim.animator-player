@@ -1,0 +1,5 @@
+{
+  "name": "Yvsim.AnimatorPlayer.Samples",
+  "rootNamespace": "Yvsim.AnimatorPlayer.Samples",
+  "references": ["Yvsim.AnimatorPlayer"]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "com.yvsim.animator-player",
+  "version": "1.0.0",
+  "displayName": "Animator Player",
+  "description": "用于控制 Unity Animator 状态播放和动画事件，适合角色动作、设备操作演示及按步骤播放的仿真动画。\n\n主要功能：\n1. 按状态名或完整状态路径播放，可指定 Animator 层和起始归一化进度。\n2. 支持顺序播放、随机单个、随机不重复遍历及指定次数重复播放，提供单次和全部完成回调。\n3. 调整播放速度、暂停与恢复，并将动画固定在首帧、末帧或指定进度。\n4. 查询当前状态和动画片段；按 Clip 名称与事件键注册、替换、移除、清空或手动触发动画事件。\n\n使用说明：需自行配置 Animator Controller、状态与动画资源。包内仅使用 Unity Animation 模块，不依赖其他业务包或插件；随附 Animator Playback 示例，用原生 Controller 和三段动画直接演示本包 API。",
+  "unity": "2021.3",
+  "author": {
+    "name": "Yvsim"
+  },
+  "license": "MIT",
+  "keywords": [
+    "animation",
+    "animator"
+  ],
+  "samples": [
+    {
+      "displayName": "Animator Playback",
+      "description": "原生 Animator 播放示例：包含 Controller、三段动画、Prefab 和可运行场景，通过组件菜单操作单个/顺序/随机/重复播放、暂停、调速、定帧与动画事件；无第三方插件依赖。",
+      "path": "Samples~/Animator Playback"
+    }
+  ],
+  "dependencies": {
+    "com.unity.modules.animation": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/com.yvsim.animator-player.git"
+  },
+  "documentationUrl": "https://github.com/liuyan7669/com.yvsim.animator-player#readme",
+  "changelogUrl": "https://github.com/liuyan7669/com.yvsim.animator-player/blob/main/CHANGELOG.md",
+  "bugs": {
+    "url": "https://github.com/liuyan7669/com.yvsim.animator-player/issues"
+  },
+  "licensesUrl": "https://github.com/liuyan7669/com.yvsim.animator-player/blob/main/LICENSE"
+}

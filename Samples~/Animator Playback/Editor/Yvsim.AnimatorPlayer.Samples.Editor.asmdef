@@ -1,0 +1,6 @@
+{
+  "name": "Yvsim.AnimatorPlayer.Samples.Editor",
+  "rootNamespace": "Yvsim.AnimatorPlayer.Samples.Editor",
+  "references": ["Yvsim.AnimatorPlayer", "Yvsim.AnimatorPlayer.Samples"],
+  "includePlatforms": ["Editor"]
+}
